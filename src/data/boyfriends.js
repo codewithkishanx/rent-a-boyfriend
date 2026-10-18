@@ -15,8 +15,8 @@ export const boyfriends = [
   },
   {
     id: "2",
-    name: "Jamie Rivera",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
+    name: "PRANJAL SEN TIWARI",
+    image: "https://res.cloudinary.com/dzciqecys/image/upload/v1792301996/Screenshot_2026-10-18_110935_xoolpi.png",
     photos: [
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
