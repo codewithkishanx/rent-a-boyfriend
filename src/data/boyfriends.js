@@ -2,7 +2,7 @@ export const boyfriends = [
   {
     id: "1",
     name: "Alex Carter",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
+    image: "https://res.cloudinary.com/dzciqecys/image/upload/v1792300712/Screenshot_2026-10-18_104621_kwozfx.png",
     photos: [
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1519085360753-af0119f76e59?auto=format&fit=crop&w=800&q=80",

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { ArrowLeft, Check, X, Clock } from "lucide-react";
+import { ArrowLeft, Check, X, Clock, X as CloseIcon, ChevronLeft, ChevronRight } from "lucide-react";
 import { boyfriends } from "../data/boyfriends";
 
 export default function BoyfriendDetail() {
@@ -20,6 +20,18 @@ export default function BoyfriendDetail() {
   }
 
   const [mainImage, setMainImage] = useState(boyfriend.image);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxIndex, setLightboxIndex] = useState(0);
+
+  const openLightbox = (index) => {
+    setLightboxIndex(index);
+    setLightboxOpen(true);
+  };
+
+  const closeLightbox = () => setLightboxOpen(false);
+
+  const nextImage = () => setLightboxIndex((i) => (i + 1) % boyfriend.photos.length);
+  const prevImage = () => setLightboxIndex((i) => (i - 1 + boyfriend.photos.length) % boyfriend.photos.length);
 
   return (
     <div className="page detail">
@@ -30,7 +42,7 @@ export default function BoyfriendDetail() {
 
       <div className="detail-header">
         <div className="photo-gallery">
-          <div className="main-photo">
+          <div className="main-photo" onClick={() => openLightbox(0)}>
             <img src={mainImage} alt={boyfriend.name} />
           </div>
           <div className="thumb-grid">
@@ -38,7 +50,10 @@ export default function BoyfriendDetail() {
               <button
                 key={i}
                 className={`thumb ${i === 0 ? "active" : ""}`}
-                onClick={() => setMainImage(photo)}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setMainImage(photo);
+                }}
               >
                 <img src={photo} alt={`${boyfriend.name} ${i + 1}`} />
               </button>
@@ -101,6 +116,27 @@ export default function BoyfriendDetail() {
           </a>
         </div>
       </div>
+
+      {/* Full image lightbox */}
+      {lightboxOpen && (
+        <div className="lightbox" onClick={closeLightbox}>
+          <button className="lightbox-close" onClick={(e) => { e.stopPropagation(); closeLightbox(); }}>
+            <CloseIcon size={24} strokeWidth={2} />
+          </button>
+          <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
+            <button className="lightbox-prev" onClick={prevImage} disabled={boyfriend.photos.length <= 1}>
+              <ChevronLeft size={32} strokeWidth={2} />
+            </button>
+            <img src={boyfriend.photos[lightboxIndex]} alt={boyfriend.name} className="lightbox-image" />
+            <button className="lightbox-next" onClick={nextImage} disabled={boyfriend.photos.length <= 1}>
+              <ChevronRight size={32} strokeWidth={2} />
+            </button>
+            <div className="lightbox-counter">
+              {lightboxIndex + 1} / {boyfriend.photos.length}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
