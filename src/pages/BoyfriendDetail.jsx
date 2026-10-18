@@ -87,8 +87,18 @@ export default function BoyfriendDetail() {
         </div>
 
         <div className="detail-actions">
-          <button className="btn btn-primary book-btn">Book Now</button>
-          <button className="btn btn-outline">Message</button>
+          <a
+            href={`mailto:codewithkishanxyz@gmail.com?subject=Booking:${boyfriend.name}&body=Hi, I would like to book ${boyfriend.name} (${boyfriend.rate}). Please let me know availability.`}
+            className="btn btn-primary book-btn"
+          >
+            Book Now
+          </a>
+          <a
+            href={`mailto:codewithkishanxyz@gmail.com?subject=Message for ${boyfriend.name}&body=Hi, I'm interested in ${boyfriend.name}. Tell me more.`}
+            className="btn btn-outline"
+          >
+            Message
+          </a>
         </div>
       </div>
     </div>
