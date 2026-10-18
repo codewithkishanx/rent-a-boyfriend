@@ -1,0 +1,38 @@
+export const boyfriends = [
+  {
+    id: "1",
+    name: "Alex Carter",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+    rate: "$45 / hr",
+    goodHabits: ["Great listener", "Cooks amazing pasta", "Always on time", "Loves long walks"],
+    badHabits: ["Leaves socks on the floor", "Talks during movies", "Hits snooze 5 times"],
+    bio: "Friendly, adventurous, and genuinely caring. Alex makes every moment feel special.",
+  },
+  {
+    id: "2",
+    name: "Jamie Rivera",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+    rate: "$55 / hr",
+    goodHabits: ["Gym regular", "Plans creative dates", "Remembers anniversaries", "Good coffee maker"],
+    badHabits: ["Overbooks calendar", "Forgets to water plants", "Too competitive at board games"],
+    bio: "Your go-to adventure partner. Jamie brings energy, charm, and great conversation.",
+  },
+  {
+    id: "3",
+    name: "Marcus Lee",
+    image: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=400&q=80",
+    rate: "$60 / hr",
+    goodHabits: ["Great massage skills", "Knows all the best restaurants", "Patient and calm", "Dog lover"],
+    badHabits: ["Takes forever to get ready", "Plays music too loud", "Ordering takeout too often"],
+    bio: "Chill, reliable, and always up for trying something new. Marcus knows how to treat you right.",
+  },
+  {
+    id: "4",
+    name: "Dylan Brooks",
+    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+    rate: "$50 / hr",
+    goodHabits: ["Handy around the house", "Movie buff", "Gives great hugs", "Early riser"],
+    badHabits: ["Leaves cabinet doors open", "Hoards old receipts", "Talks to himself while cooking"],
+    bio: "Easygoing and warm. Dylan is the perfect low-key companion for any occasion.",
+  },
+];
