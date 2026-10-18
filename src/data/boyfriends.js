@@ -77,4 +77,17 @@ export const boyfriends = [
     badHabits: ["Leaves cabinet doors open", "Hoards old receipts", "Talks to himself while cooking"],
     bio: "Easygoing and warm. Dylan is the perfect low-key companion for any occasion.",
   },
+  {
+    id: "6",
+    name: "HARSH SINHA",
+    image: "https://res.cloudinary.com/dzciqecys/image/upload/v1792308811/Screenshot_2026-10-18_130302_kjvlao.png",
+    photos: [
+      "https://res.cloudinary.com/dzciqecys/image/upload/v1792308811/Screenshot_2026-10-18_130302_kjvlao.png",
+     
+    ],
+    rate: "500 / hr",
+    goodHabits: ["Handy around the house", "Movie buff", "Gives great hugs", "Early riser"],
+    badHabits: ["Leaves cabinet doors open", "Hoards old receipts", "Talks to himself while cooking"],
+    bio: "Easygoing and warm. Dylan is the perfect low-key companion for any occasion.",
+  },
 ];
