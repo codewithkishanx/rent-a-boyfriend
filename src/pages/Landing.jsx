@@ -78,6 +78,25 @@ export default function Landing() {
           )}
         </div>
       </section>
+
+      <section className="booking-section">
+        <div className="booking-card">
+          <h2>Book a Date</h2>
+          <p>
+            Ready to meet your perfect companion? Email us at{" "}
+            <a href={`mailto:codewithkishanxyz@gmail.com`}>
+              codewithkishanxyz@gmail.com
+            </a>
+          </p>
+          <p>
+            Include your name, preferred date, time, and which companion
+            you'd like to book.
+          </p>
+          <a href="mailto:codewithkishanxyz@gmail.com" className="btn btn-main">
+            Send Booking Email
+          </a>
+        </div>
+      </section>
     </div>
   );
 }
