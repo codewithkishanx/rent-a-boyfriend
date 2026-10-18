@@ -1,5 +1,5 @@
-import { useParams } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, Check, X, Clock } from "lucide-react";
 import { boyfriends } from "../data/boyfriends";
 
@@ -19,6 +19,8 @@ export default function BoyfriendDetail() {
     );
   }
 
+  const [mainImage, setMainImage] = useState(boyfriend.image);
+
   return (
     <div className="page detail">
       <Link to="/" className="btn back">
@@ -27,7 +29,22 @@ export default function BoyfriendDetail() {
       </Link>
 
       <div className="detail-header">
-        <img src={boyfriend.image} alt={boyfriend.name} className="detail-image" />
+        <div className="photo-gallery">
+          <div className="main-photo">
+            <img src={mainImage} alt={boyfriend.name} />
+          </div>
+          <div className="thumb-grid">
+            {boyfriend.photos.map((photo, i) => (
+              <button
+                key={i}
+                className={`thumb ${i === 0 ? "active" : ""}`}
+                onClick={() => setMainImage(photo)}
+              >
+                <img src={photo} alt={`${boyfriend.name} ${i + 1}`} />
+              </button>
+            ))}
+          </div>
+        </div>
         <div className="detail-info">
           <h1>{boyfriend.name}</h1>
           <div className="detail-rate">
