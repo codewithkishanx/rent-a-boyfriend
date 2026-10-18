@@ -168,4 +168,28 @@ export const boyfriends = [
     ],
     bio: "Harsh is 50% sarcasm, 30% random knowledge, and 20% wondering why nobody understands his genius. Perfect for deep talks, ridiculous debates, and laughing at jokes that probably shouldn't be funny.",
   },
+  {
+  id: "8",
+  name: "SHUBHAM KUMAR",
+  image: "https://res.cloudinary.com/dzciqecys/image/upload/v1792309253/WhatsApp_Image_2026-10-18_at_1.10.12_PM_siyxk9.jpg",
+  photos: [
+    "https://res.cloudinary.com/dzciqecys/image/upload/v1792309253/WhatsApp_Image_2026-10-18_at_1.10.12_PM_siyxk9.jpg",
+  ],
+  rate: "500 / hr",
+  goodHabits: [
+    "Confidence level: CEO, bank balance: intern",
+    "Can turn any normal conversation into a comedy show",
+    "Always ready for a chai and gossip session",
+    "Gives expert advice even when nobody asks",
+    "Loyal friend who never abandons the squad",
+  ],
+  badHabits: [
+    "Says 'on the way' before leaving his bed",
+    "Spends 2 hours choosing a movie and then scrolls reels",
+    "Borrows your charger and claims joint ownership",
+    "Laughs at his own jokes before finishing them",
+    "Treats every minor inconvenience like a national emergency",
+  ],
+  bio: "Meet Shubham Kumar: a limited-edition personality with unlimited confidence and questionable time management. He will make you laugh, steal your snacks, give you life advice, and somehow convince you that all three were part of the plan.",
+},
 ];
