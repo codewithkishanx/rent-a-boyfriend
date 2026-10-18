@@ -5,13 +5,24 @@ export const boyfriends = [
     image: "https://res.cloudinary.com/dzciqecys/image/upload/v1792300712/Screenshot_2026-10-18_104621_kwozfx.png",
     photos: [
       "https://res.cloudinary.com/dzciqecys/image/upload/v1792301461/Screenshot_2026-10-18_110040_czudqe.png",
-      
       "https://res.cloudinary.com/dzciqecys/image/upload/v1792301619/Screenshot_2026-10-18_110321_ofrklf.png",
     ],
     rate: "450 / hr",
-    goodHabits: ["YADAV" ,"Great listener", "Cooks amazing pasta", "Always on time", "Loves long walks"],
-    badHabits: ["Leaves socks on the floor", "Talks during movies", "Hits snooze 5 times"],
-    bio: "Friendly, adventurous, and genuinely caring. Alex makes every moment feel special.",
+    goodHabits: [
+      "Certified Yadav Swag Ambassador",
+      "Can turn chai into an emotional support system",
+      "Gives motivational speeches nobody requested",
+      "Loyal like a Nokia 3310",
+      "Always ready for a late-night food mission",
+    ],
+    badHabits: [
+      "Says '5 minutes' while still at home",
+      "Turns every discussion into a debate competition",
+      "Checks his hairstyle in every reflective surface",
+      "Steals fries and calls it quality testing",
+      "Has 47 unread WhatsApp messages",
+    ],
+    bio: "Part-time gentleman, full-time legend. Jai Hind can solve your problems, recommend the best chai spot, and somehow make every small argument feel like a Supreme Court hearing.",
   },
   {
     id: "2",
@@ -19,12 +30,23 @@ export const boyfriends = [
     image: "https://res.cloudinary.com/dzciqecys/image/upload/v1792301996/Screenshot_2026-10-18_110935_xoolpi.png",
     photos: [
       "https://res.cloudinary.com/dzciqecys/image/upload/v1792301996/Screenshot_2026-10-18_110935_xoolpi.png",
-      
     ],
     rate: "550 / hr",
-    goodHabits: ["Gym regular", "Plans creative dates", "Remembers anniversaries", "Good coffee maker"],
-    badHabits: ["Overbooks calendar", "Forgets to water plants", "Too competitive at board games"],
-    bio: "Your go-to adventure partner. Jamie brings energy, charm, and great conversation.",
+    goodHabits: [
+      "Professional overthinker with premium subscription",
+      "Plans dates like a five-year business strategy",
+      "Can detect bad coffee from three kilometers away",
+      "Remembers tiny details but forgets why he entered a room",
+      "Makes even boring walks feel like a movie scene",
+    ],
+    badHabits: [
+      "Takes 30 minutes to choose what to eat",
+      "Says 'I'm fine' and starts a TED Talk later",
+      "Creates a playlist for literally everything",
+      "Overthinks a simple 'okay' text for three business days",
+      "Thinks he is the main character in every situation",
+    ],
+    bio: "CEO of overthinking, director of romantic comedies, and founder of the 'What if she meant something else?' club. Pranjal brings premium conversation with a complimentary side of confusion.",
   },
   {
     id: "3",
@@ -32,12 +54,23 @@ export const boyfriends = [
     image: "https://res.cloudinary.com/dzciqecys/image/upload/v1792303307/Screenshot_2026-10-18_113110_yp45fj.png",
     photos: [
       "https://res.cloudinary.com/dzciqecys/image/upload/v1792303307/Screenshot_2026-10-18_113110_yp45fj.png",
-      
     ],
     rate: "600 / hr",
-    goodHabits: ["Great massage skills", "Knows all the best restaurants", "Patient and calm", "Dog lover"],
-    badHabits: ["Takes forever to get ready", "Plays music too loud", "Ordering takeout too often"],
-    bio: "Chill, reliable, and always up for trying something new. Marcus knows how to treat you right.",
+    goodHabits: [
+      "Can find a food spot in any city",
+      "Calm enough to negotiate with a Wi-Fi router",
+      "Gives advice like a retired Bollywood hero",
+      "Always shares the last bite after saying he won't",
+      "Knows how to turn a bad day into a comedy show",
+    ],
+    badHabits: [
+      "Orders enough food to feed a wedding",
+      "Says 'one last reel' until sunrise",
+      "Takes 200 photos and likes exactly one",
+      "Treats the menu like an important legal document",
+      "Falls asleep during the movie he recommended",
+    ],
+    bio: "Prem is the human version of comfort food: reliable, entertaining, and occasionally impossible to stop. Come for the conversation, stay because he ordered too much food again.",
   },
   {
     id: "4",
@@ -45,49 +78,94 @@ export const boyfriends = [
     image: "https://res.cloudinary.com/dzciqecys/image/upload/v1792303444/Screenshot_2026-10-18_113326_tvq79o.png",
     photos: [
       "https://res.cloudinary.com/dzciqecys/image/upload/v1792303444/Screenshot_2026-10-18_113326_tvq79o.png",
-     
     ],
     rate: "500 / hr",
-    goodHabits: ["Handy around the house", "Movie buff", "Gives great hugs", "Early riser"],
-    badHabits: ["Leaves cabinet doors open", "Hoards old receipts", "Talks to himself while cooking"],
-    bio: "Easygoing and warm. Dylan is the perfect low-key companion for any occasion.",
-  },{
+    goodHabits: [
+      "Can make a boring Sunday feel legendary",
+      "Has elite-level meme delivery timing",
+      "Remembers your food order better than his passwords",
+      "Always ready for spontaneous adventures",
+      "Gives compliments like he has a lifetime subscription",
+    ],
+    badHabits: [
+      "Sends memes instead of answering serious questions",
+      "Says 'trust me' before questionable plans",
+      "Cannot walk past a mirror without checking himself",
+      "Turns a quick outing into a six-hour expedition",
+      "Uses 'bro' in situations where it absolutely does not belong",
+    ],
+    bio: "A walking meme factory with suspiciously good timing. Priyanshu can make you laugh in the middle of an argument and then act confused about why you're still mad.",
+  },
+  {
     id: "5",
     name: "KANHAIYA JAAT",
     image: "https://res.cloudinary.com/dzciqecys/image/upload/v1792303660/Screenshot_2026-10-18_113722_fvzsro.png",
     photos: [
-      "https://res.cloudinary.com/dzciqecys/image/upload/v1792303444/Screenshot_2026-10-18_113326_tvq79o.png",
-     
+      "https://res.cloudinary.com/dzciqecys/image/upload/v1792303660/Screenshot_2026-10-18_113722_fvzsro.png",
     ],
     rate: "500 / hr",
-    goodHabits: ["Handy around the house", "Movie buff", "Gives great hugs", "Early riser"],
-    badHabits: ["Leaves cabinet doors open", "Hoards old receipts", "Talks to himself while cooking"],
-    bio: "Easygoing and warm. Dylan is the perfect low-key companion for any occasion.",
+    goodHabits: [
+      "Confidence level: phone at 1% with no charger",
+      "Can turn a five-minute story into a blockbuster",
+      "Always ready to defend his friends",
+      "Has an answer for everything, including things nobody asked",
+      "Brings unstoppable energy to every plan",
+    ],
+    badHabits: [
+      "Says 'I know a shortcut' and adds 40 minutes",
+      "Challenges Google Maps like it's a personal enemy",
+      "Starts stories with 'you won't believe this'",
+      "Thinks every minor achievement deserves a trophy",
+      "Never admits defeat, even against a vending machine",
+    ],
+    bio: "Confidence on maximum, directions on airplane mode. Kanhaiya is your adventure partner for questionable shortcuts, legendary stories, and debates that somehow last longer than the actual journey.",
   },
   {
-    id: "5",
+    id: "6",
     name: "KULDEEP RAJPUT",
     image: "https://res.cloudinary.com/dzciqecys/image/upload/v1792307459/Screenshot_2026-10-18_124040_ufaq3v.png",
     photos: [
       "https://res.cloudinary.com/dzciqecys/image/upload/v1792307459/Screenshot_2026-10-18_124040_ufaq3v.png",
-     
     ],
     rate: "500 / hr",
-    goodHabits: ["Handy around the house", "Movie buff", "Gives great hugs", "Early riser"],
-    badHabits: ["Leaves cabinet doors open", "Hoards old receipts", "Talks to himself while cooking"],
-    bio: "Easygoing and warm. Dylan is the perfect low-key companion for any occasion.",
+    goodHabits: [
+      "Acts like everyone's personal bodyguard",
+      "Can fix almost anything except his sleep schedule",
+      "Shares life advice with unexpected accuracy",
+      "Always volunteers to carry the heavy bags",
+      "Has a sixth sense for finding the best snacks",
+    ],
+    badHabits: [
+      "Says 'I'm not hungry' then eats half your meal",
+      "Treats naps like a competitive sport",
+      "Replies 'hmm' to messages that need a full paragraph",
+      "Starts cleaning his room and discovers ancient history",
+      "Thinks being five minutes late is basically punctual",
+    ],
+    bio: "The dependable guy with main-character confidence and grandpa-level nap skills. Kuldeep will protect your snacks, carry your bags, and mysteriously finish your fries while insisting he only had two.",
   },
   {
-    id: "6",
+    id: "7",
     name: "HARSH SINHA",
     image: "https://res.cloudinary.com/dzciqecys/image/upload/v1792308811/Screenshot_2026-10-18_130302_kjvlao.png",
     photos: [
       "https://res.cloudinary.com/dzciqecys/image/upload/v1792308811/Screenshot_2026-10-18_130302_kjvlao.png",
-     
     ],
     rate: "500 / hr",
-    goodHabits: ["Handy around the house", "Movie buff", "Gives great hugs", "Early riser"],
-    badHabits: ["Leaves cabinet doors open", "Hoards old receipts", "Talks to himself while cooking"],
-    bio: "Easygoing and warm. Dylan is the perfect low-key companion for any occasion.",
+    goodHabits: [
+      "Can make awkward silences entertaining",
+      "Gives brutally honest advice with good intentions",
+      "Remembers random facts nobody needs",
+      "Always has a backup plan for the backup plan",
+      "Can turn a simple chai break into a deep conversation",
+    ],
+    badHabits: [
+      "Says 'hear me out' before the wildest ideas",
+      "Overuses sarcasm until nobody knows if he's serious",
+      "Starts a debate and then asks why everyone is arguing",
+      "Has 99 tabs open in his brain",
+      "Sends voice notes that qualify as podcasts",
+    ],
+    bio: "Harsh is 50% sarcasm, 30% random knowledge, and 20% wondering why nobody understands his genius. Perfect for deep talks, ridiculous debates, and laughing at jokes that probably shouldn't be funny.",
   },
 ];
