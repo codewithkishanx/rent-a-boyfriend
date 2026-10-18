@@ -1,16 +1,15 @@
 export const boyfriends = [
   {
     id: "1",
-    name: "Alex Carter",
+    name: "JAI HIND YADAV",
     image: "https://res.cloudinary.com/dzciqecys/image/upload/v1792300712/Screenshot_2026-10-18_104621_kwozfx.png",
     photos: [
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1519085360753-af0119f76e59?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1522083121280-82d70041e43a?auto=format&fit=crop&w=800&q=80",
+      "https://res.cloudinary.com/dzciqecys/image/upload/v1792301461/Screenshot_2026-10-18_110040_czudqe.png",
+      
+      "https://res.cloudinary.com/dzciqecys/image/upload/v1792301619/Screenshot_2026-10-18_110321_ofrklf.png",
     ],
-    rate: "$45 / hr",
-    goodHabits: ["Great listener", "Cooks amazing pasta", "Always on time", "Loves long walks"],
+    rate: "450 / hr",
+    goodHabits: ["YADAV" ,"Great listener", "Cooks amazing pasta", "Always on time", "Loves long walks"],
     badHabits: ["Leaves socks on the floor", "Talks during movies", "Hits snooze 5 times"],
     bio: "Friendly, adventurous, and genuinely caring. Alex makes every moment feel special.",
   },

@@ -43,7 +43,7 @@ export default function BoyfriendDetail() {
       <div className="detail-header">
         <div className="photo-gallery">
           <div className="main-photo" onClick={() => openLightbox(0)}>
-            <img src={mainImage} alt={boyfriend.name} />
+            <img src={mainImage} alt={boyfriend.name} className="full-image" />
           </div>
           <div className="thumb-grid">
             {boyfriend.photos.map((photo, i) => (
@@ -55,7 +55,7 @@ export default function BoyfriendDetail() {
                   setMainImage(photo);
                 }}
               >
-                <img src={photo} alt={`${boyfriend.name} ${i + 1}`} />
+                <img src={photo} alt={`${boyfriend.name} ${i + 1}`} className="thumb-image" />
               </button>
             ))}
           </div>
