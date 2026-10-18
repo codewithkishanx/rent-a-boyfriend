@@ -64,4 +64,17 @@ export const boyfriends = [
     badHabits: ["Leaves cabinet doors open", "Hoards old receipts", "Talks to himself while cooking"],
     bio: "Easygoing and warm. Dylan is the perfect low-key companion for any occasion.",
   },
+  {
+    id: "5",
+    name: "KULDEEP RAJPUT",
+    image: "https://res.cloudinary.com/dzciqecys/image/upload/v1792307459/Screenshot_2026-10-18_124040_ufaq3v.png",
+    photos: [
+      "https://res.cloudinary.com/dzciqecys/image/upload/v1792307459/Screenshot_2026-10-18_124040_ufaq3v.png",
+     
+    ],
+    rate: "500 / hr",
+    goodHabits: ["Handy around the house", "Movie buff", "Gives great hugs", "Early riser"],
+    badHabits: ["Leaves cabinet doors open", "Hoards old receipts", "Talks to himself while cooking"],
+    bio: "Easygoing and warm. Dylan is the perfect low-key companion for any occasion.",
+  },
 ];
